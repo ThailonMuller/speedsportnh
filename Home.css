@@ -3,12 +3,6 @@
     margin: 0;
 }
 
-@media (max-width: 600px) {
-    h4 .link_endereco{
-        font-size: 14px;
-        margin: auto 2px;
-    }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
@@ -30,23 +24,17 @@
     text-align: center;
     text-shadow: 1px 1px 1px #2b1d00ab;
 }
-.container{    
+
+/* CONTAINER IMAGENS*/
+/*.container{    
     display: flex;
     align-items: center;
     justify-content: center;
 }
-video{
-    width: 100%;
-    border-radius: 16px;
-}
-.c-video1, .c-video2, .c-video3{       
-    display: flex;
-    background-image: linear-gradient(#ff7b00,#ff9838);
-    justify-content: center;
-    align-items: center;       
-    margin-right: 10px;    
-    border-radius: 16px;
-}
+*/
+
+
+
 .list_itens{
     margin-top: 6vh;   
     text-align: center; 
@@ -65,11 +53,6 @@ li{
 }
 ul{
     padding: 40px;
-}
-.imgq{
-    border-radius: 16px;
-    margin: 10px 10px 15px 3px;
-    width: 31%;
 }
 .btn_reservar{   
     padding: 15px;
